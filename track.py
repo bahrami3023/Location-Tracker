@@ -5,7 +5,7 @@ from opencage.geocoder import OpenCageGeocode
 import folium
 import requests
 
-key = "56eed2a8813a40999b6cae258ea4fd63"
+key = "1a3e7e79960342798bc3c2eeb4e241a4"
 
 def get_address_from_google_maps(lat, lng, google_maps_key):
     url = f"https://maps.googleapis.com/maps/api/geocode/json?latlng={lat},{lng}&key={google_maps_key}"
